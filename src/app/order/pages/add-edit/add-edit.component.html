@@ -1,0 +1,6 @@
+<form [formGroup]="form" (submit)="save()">
+    <input type="text" formControlName="item" /><br>
+    <input type="number" formControlName="qty" step="1" /><br>
+    <input type="number" formControlName="amount" step="0.01" /><br>
+    <button type="submit">Save</button>
+</form>

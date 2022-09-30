@@ -1,0 +1,18 @@
+{
+    "/phx": {
+        "target": "http://localhost:8091/phoenix/users",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/phx": ""
+        }
+    },
+    "/stv": {
+        "target": "http://localhost:8091/statesville/orders",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/stv": ""
+        }
+    }
+}

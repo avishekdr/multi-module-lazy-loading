@@ -1,0 +1,11 @@
+<form (submit)="go()">
+    <div>
+        <label for="Statesvielle">STV</label>
+        <input type="radio" name="STV" value="STV" [(ngModel)]="place" />
+    </div>
+    <div>
+        <label for="Phoenix">PHX</label>
+        <input type="radio" name="PHX" value="PHX" [(ngModel)]="place" />
+    </div>
+    <button type="submit">Go!</button>
+</form>
